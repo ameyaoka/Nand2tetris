@@ -1,7 +1,7 @@
 # nand2tetris
 Building a modern computer from first principles
 
-table of content 
+#table of content 
 
 chapter 1: Boolean logic 
 chapter 2: Boolean arithmetic
