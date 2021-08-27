@@ -1,26 +1,27 @@
 # nand2tetris
 Building a modern computer from first principles
 
-#table of content 
+##table of content 
 
-chapter 1: Boolean logic 
-chapter 2: Boolean arithmetic
-chapter 3: Sequential logic
-chapter 4: Machine Language 
-chapter 5: Computer Architecture  
-chapter 6: Assembler 
-chapter 7: Virtual Machine 1 Stack Arithmetic 
-chapter 8: Virtual Machine 2 Program control 
-chapter 9: High-Level language 
-chapter10: Compiler 1 Syntax Analysis 
-chapter11: Code generation 
-chapter12: Operating System 
-chapter13: Postscript More Fun To Go 
+
+1.  Boolean logic 
+2.  Boolean arithmetic
+3.  Sequential logic
+4.  Machine Language 
+5.  Computer Architecture  
+6.  Assembler 
+7.  Virtual Machine 1 Stack Arithmetic 
+8.  Virtual Machine 2 Program control 
+9.  High-Level language 
+10. Compiler 1 Syntax Analysis 
+11. Code generation 
+12. Operating System 
+13. Postscript More Fun To Go 
  
 
 
  	Boolean Algebra 
-
+##
 
 
 
