@@ -19,7 +19,7 @@ Building a modern computer from first principles
 13. Postscript More Fun To Go 
  
 
-## logic gates 
+### logic gates 
 - Gate is a physical device that implements boolean function .
 
 -
@@ -84,7 +84,7 @@ Xor(a,b)=Or(And(a,Not(b))).There may be multiple ways to implement a particular 
 
 
 
-## Sequential logic 
+### Sequential logic 
 
 - Computer must not only compute values but also store them and recall them .
 - Thus computers must be equipped with memory that can preserve data data over time .
@@ -102,5 +102,19 @@ Xor(a,b)=Or(And(a,Not(b))).There may be multiple ways to implement a particular 
 - The signal is continuously Broadcast to every sequential chip.
 
 **Flip-Flop** 
+- DFF (data flipflop) consist of single bit data  input and single bit data output and a clock input .
+- implements time-based behavior out(t)=in(t-1).
+- DFF simply outputs input values from previous time unit.
+
+**Registers**
+- A register is a storage device that can store or remember a value [ out(t)=out(t-1).
+- Implemented using multiplexor and DFF 
+- Feeding back output of DFF back into its input.
+- if you want to sore new values set mux sel=1 or else 0 .
+- The design parameter for register is width-the number of its it can hold
+
+**Memories**
+- Memory can be built by  stacking together registers to form RAM (Random Access Memory).
+- RAM can access any word in memory irrespective of its physical location-be accessed , in equal speed.
 
 
