@@ -77,3 +77,20 @@ Xor(a,b)=Or(And(a,Not(b))).There may be multiple ways to implement a particular 
 
 ### Multu-bit version of basic gates
 
+
+
+
+
+
+
+
+## Sequential logic 
+
+- Computer must not only compute values but also store them and recall them .
+- Thus computers must be equipped with memory that can preserve data data over time .
+- boolean and arithmetic chips compute function (ALU)but cannot maintain state.
+- memory involves synchronization ,clocking and feedback loop.
+- memory elements can be built with flip-flop.
+- The act of remembering something is inherently time-dependant
+- In order to build chips that remember information we must build some standard means of representing progress of time
+ 
