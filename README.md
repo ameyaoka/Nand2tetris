@@ -117,4 +117,73 @@ Xor(a,b)=Or(And(a,Not(b))).There may be multiple ways to implement a particular 
 - Memory can be built by  stacking together registers to form RAM (Random Access Memory).
 - RAM can access any word in memory irrespective of its physical location-be accessed , in equal speed.
 
+### Machine Language
+- A machine language can be viewed as an agreed upon formalism, d>
+
+### Memory
+- The term memory loosely refers to collection of hardware device>
+
+- From programmers point of view all memories have same structre >
+
+
+### Processor
+- Central processing unit
+- Performs fixed set of operations
+- arithmetic and logical operations, memory access operations and>
+
+### Registers
+
+- Memory access is slow operation .
+- Most processors are equipped with registers capable of holding >
+- These registers are located in immediate proximity ,Registers s>
+
+**Memory access**
+
+- Memory access commands are of two categories.
+- arithmetic and logical commands are allowed to operate not only>
+
+- explicit load and store commands ,designed to move data between>
+
+- Three memory access modes which are always supported .
+        1. **direct addressing :** express a specific address or >
+
+        load R1,67 // R1<- memory[67]
+        or
+        LOAD R1,bar  // assume that bar refers to memory address >
+
+        2. **immediate addressing :**
+        - Used to load constants.
+        - Loads value of field itself into the register.
+        - eg: LOADI R1,67 //R1 <- 67
+
+        3. **Indirect addressing :**
+        - Instruction specify memory location that holds the requ>
+**Flow of the control**
+- Programs occasional branches to locations other than next comma>
+- Branching is used for **repetition** or **conditional execution>
+
+
+
+
+
+**Hack machine language specification**
+- 16-bit machine
+- CPU
+- 2 memory modules (instruction memory ,data memory)
+- 2 memory mapped I/O devices: screen and keyboard.
+
+- **memory address spaces**
+- 2 distinct address (instruction memory ,data memory)
+- both 16 bit wide and 24 bit address space .
+- CPU can run program that resides in instruction memory.
+- instruction memory is read-only.
+
+
+- **Registers**
+- Two 16-bit registers called D & A.
+- registers can be manipulated by arithmetic and logical instruct>
+- D stores data values
+- A doubles as both data register and an address register.
+
+
 
