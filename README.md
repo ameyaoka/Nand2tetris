@@ -22,7 +22,6 @@ Building a modern computer from first principles
 ### logic gates 
 - Gate is a physical device that implements boolean function .
 
--
 
 - Primitive and composite gates:
 
@@ -160,13 +159,13 @@ Xor(a,b)=Or(And(a,Not(b))).There may be multiple ways to implement a particular 
         - Instruction specify memory location that holds the requ>
 **Flow of the control**
 - Programs occasional branches to locations other than next comma>
-- Branching is used for **repetition** or **conditional execution>
+- Branching is used for **repetition** or **conditional execution**
 
 
 
 
 
-**Hack machine language specification**
+- **Hack machine language specification**
 - 16-bit machine
 - CPU
 - 2 memory modules (instruction memory ,data memory)
@@ -185,5 +184,15 @@ Xor(a,b)=Or(And(a,Not(b))).There may be multiple ways to implement a particular 
 - D stores data values
 - A doubles as both data register and an address register.
 
+**The A-Instruction**
+- Used to set a register to a 15 bit value.
+- Only way to enter a constant into computer under program control.
+- Sets stage for c instruction which manipulates data memory location .
+- Loads address for C-instructions that specifies jump.
 
+**C-Instruction**
+- Answers 3 questions
+	1. what to compute.
+	2. where to store value.
+	3. what to do next.
 
