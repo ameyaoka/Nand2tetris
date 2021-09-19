@@ -196,3 +196,17 @@ Xor(a,b)=Or(And(a,Not(b))).There may be multiple ways to implement a particular 
 	2. where to store value.
 	3. what to do next.
 
+- **111**a c1 c2 c3 c4  c5 c6 d1 d2  d3 j1 j2 j3
+- a stands for a instruction 
+- c stands for c instruction 
+- d stands for destination 
+- j stands for jump
+- The leftmost bit is 1 and next 2 bits are not used.
+
+**Computational specification**
+- ALU determines the computation with 1 a-bit and 6 c-bits .
+- Total 128 functions can be specified .
+- 
+
+
+
