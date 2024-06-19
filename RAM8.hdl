@@ -17,6 +17,7 @@ CHIP RAM8 {
 
    
     PARTS:
+
    Register ( in=in ,load= y1 , out=x1);
    Register ( in=in ,load= y2 , out=x2);
    Register ( in=in ,load= y3 , out=x3);
@@ -27,5 +28,7 @@ CHIP RAM8 {
    Register ( in=in ,load= y8 , out=x8);
    DMux8Way(in=load , sel=address ,a=y1,b=y2,c=y3,d=y4,e=y5,f=y6,g=y7,h=y8);
    Mux8Way16 (a=x1,b=x2,c=x3,d=x4,e=x5,f=x6,g=x7,h=x8,sel=address,out=out);
+
+
 
 }
